@@ -1,0 +1,144 @@
+/* Reset CSS لتصفير القيم الافتراضية */
+body {
+    font-family: Arial, sans-serif; /* تحديد الخط الأساسي */
+    background-color: #f8f8f8; /* لون خلفية الصفحة */
+    margin: 10; /* تصفير هوامش الصفحة */
+    padding: 5; /* تصفير التباعد الداخلي للصفحة */
+}
+
+/* تنسيق الصفحة الرئيسية للخروج */
+#checkout-container {
+    max-width: 1000px; /* أقصى عرض للصندوق ليكون مركزيًا */
+    margin: 20px auto; /* تحديد هوامش الصندوق للتموضع المركزي */
+    padding: 20px; /* إضافة هوامش داخلية للصندوق */
+    background-color: #fff; /* لون خلفية الصندوق */
+    border-radius: 20px; /* تقويس حواف الصندوق */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* تأثير الظل للصندوق */
+}
+
+/* تنسيق العنوان الرئيسي */
+h2 {
+    text-align: center; /* توسيط العنوان */
+    margin-bottom: 20px; /* تباعد بين العناصر */
+    color: #393939; /* لون النص */
+    text-transform: uppercase; /* تحويل النص إلى حروف كبيرة */
+    font-size: 24px; /* حجم الخط */
+}
+
+/* تنسيق حقول الإدخال والزر ومربع الاختيار */
+input[type="text"], input[type="checkbox"], button {
+    width: calc(100% - 24px); /* العرض بالنسبة لحجم الصندوق مع هوامش داخلية */
+    padding: 12px; /* الهوامش الداخلية للعناصر */
+    margin-bottom: 20px; /* التباعد بين العناصر */
+    border: 1px solid #ddd; /* تحديد حدود العناصر */
+    border-radius: 5px; /* تقويس حواف العناصر */
+    box-sizing: border-box; /* ضمان أن الهوامش تضاف إلى العرض والارتفاع */
+}
+
+/* تنسيق مربعات الاختيار */
+input[type="checkbox"] {
+    width: auto; /* العرض التلقائي لمربعات الاختيار */
+    margin-top: 8px; /* التباعد من الأعلى */
+}
+
+/* تنسيق الزر */
+button {
+    width: 100%; /* العرض بالكامل للزر */
+    background-color: #393939; /* لون خلفية الزر */
+    color: #000000; /* لون النص */
+    border: none; /* إزالة حدود الزر */
+    border-radius: 5px; /* تقويس حواف الزر */
+    cursor: pointer; /* تحويل المؤشر إلى يد عند التحويم */
+    padding: 14px 0; /* هوامش داخلية للزر */
+    font-size: 16px; /* حجم الخط */
+    transition: background-color 0.3s ease; /* تأثير انتقالي لتغيير لون الخلفية */
+    text-transform: uppercase; /* تحويل النص إلى حروف كبيرة */
+    letter-spacing: 1px; /* تباعد الحروف */
+}
+
+/* تحويل لون الخلفية عند التحويم */
+button:hover {
+    background-color: #45a049;
+}
+
+/* تنسيق معلومات الفواتير والدفع ليكونوا جنبًا إلى جنب */
+#billing-info, #payment-info {
+    float: left; /* تصميم عنصرين بشكل جنبي */
+    width: 50%; /* نصف العرض لكل عنصر */
+    box-sizing: border-box; /* ضمان أن الهوامش تضاف إلى العرض والارتفاع */
+    padding-right: 10px; /* الهوامش الداخلية من اليمين */
+}
+#element {
+    opacity: 0.1; /* تحديد شفافية العنصر بنسبة 50% */
+}
+
+/* تنسيق معلومات الشحن للتأكد من أنها تبدأ من البداية */
+#shipping-info {
+    clear: both; /* تحرير العناصر السابقة للتأكد من بدء التالي من البداية */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("pexels-castorly-stock-3829444.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+#checkout-container {
+    background-color: rgba(255, 255, 255, 0.1); /* لون خلفية شفاف للمعلومات */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+input[type="text"], input[type="checkbox"], button, select {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-top: 8px;
+}
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 14px 0;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#billing-info, #payment-info {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+#shipping-info {
+    clear: both;
+}

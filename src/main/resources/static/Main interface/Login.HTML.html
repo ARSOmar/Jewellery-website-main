@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* لون خلفية الصفحة */
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 28px;
+        }
+        input[type="text"], input[type="password"], input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 25px;
+            border: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 16px;
+            outline: none;
+        }
+        input[type="submit"] {
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border: none; /* إزالة حدود الزر */
+        }
+        input[type="submit"]:hover {
+            background-color: #333;
+        }
+        .forgot-password {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .forgot-password a {
+            color: #888;
+            text-decoration: none;
+        }
+        .forgot-password a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<div class="background-image"></div>
+<div class="container">
+    <h2>Login</h2>
+    <form action="../Jewellery-website-main/index.html">
+        <input type="text" name="email_or_phone" placeholder="Email or Phone" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <input type="submit" value="Login">
+    </form>
+    <div class="forgot-password">
+        <a href="Forgot%20Password.HTML.html">Forgot Password?</a>
+    </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <style>
+        body {
+            /* تعيين صورة الخلفية */
+            background-image: url("pexels-castorly-stock-3829444.jpg");
+            /* جعل الصورة تغطي كامل الشاشة */
+            background-size: cover;
+            /* تحديد طريقة عرض الصورة */
+            background-repeat: no-repeat;
+            /* تحديد موضع الصورة */
+            background-position: center;
+            /* تجعل النص باللون الأبيض لتباين مع الصورة */
+            color: white;
+            /* جعل النص في الوسط */
+            text-align: center;
+            /* تضبيط هام للإرتفاع */
+            height: 100vh;
+            /* جعل النص والعناصر بمحور عمودي وأفقي مركزين */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* تعيين خط أساسي */
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.collection {
+    text-align: center;
+    padding: 20px;
+}
+
+.collection h2 {
+    color: #333;
+    font-size: 32px;
+}
+
+.jewelry-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.jewelry-item h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.jewelry-item p {
+    color: #666;
+    font-size: 18px;
+}
+
+.jewelry-item a {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.jewelry-item a:hover {
+    background-color: #555;
+}
+.jewelry-item img {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+}

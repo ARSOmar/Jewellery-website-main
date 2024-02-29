@@ -1,0 +1,92 @@
+/* تحديد الأسلوب الأساسي للصفحة */
+body {
+    font-family: Arial, sans-serif; /* تحديد نوع الخط */
+    margin: 0; /* إزالة هوامش الصفحة */
+    padding: 0; /* إزالة التباعد الداخلي للصفحة */
+    background-color: #f8f8f8; /* تحديد لون خلفية الصفحة */
+}
+
+/* تنسيق العنوان الرئيسي للصفحة */
+header {
+    background-color: #333; /* تحديد لون خلفية العنوان */
+    color: #fff; /* تحديد لون النص */
+    padding: 20px; /* إضافة هوامش داخلية */
+    text-align: center; /* محاذاة النص في وسط العنوان */
+}
+
+/* تنسيق العناصر النصية */
+h1 {
+    font-size: 2.5em; /* تحديد حجم الخط */
+    margin-bottom: 0.5em; /* إضافة هامش أسفل العنوان */
+}
+
+/* تنسيق العناصر الرئيسية للصفحة */
+main {
+    padding: 20px; /* إضافة هوامش داخلية */
+}
+
+/* تنسيق كل عنصر بورتفوليو */
+.portfolio-item {
+    background-color: #fff; /* تحديد لون خلفية العنصر */
+    border-radius: 10px; /* تحديد شكل الحواف */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* إضافة ظل للعنصر */
+    padding: 20px; /* إضافة هوامش داخلية */
+    margin-bottom: 30px; /* إضافة هامش أسفل العنصر */
+}
+
+/* تنسيق عنوان العنصر */
+.portfolio-item h2 {
+    color: #333; /* تحديد لون العنوان */
+    font-size: 1.5em; /* تحديد حجم الخط */
+    margin-bottom: 0.5em; /* إضافة هامش أسفل العنوان */
+}
+
+/* تنسيق النص الوصفي للعنصر */
+.portfolio-item p {
+    color: #666; /* تحديد لون النص */
+    margin-bottom: 1em; /* إضافة هامش أسفل النص */
+}
+
+/* تنسيق الصور في العنصر */
+.portfolio-item img {
+    max-width: 100%; /* تحديد عرض الصورة */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    display: block; /* جعل الصورة تظهر كبلوك */
+    margin-bottom: 15px; /* إضافة هامش أسفل الصورة */
+    border-radius: 5px; /* تحديد شكل الحواف */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* إضافة ظل للصورة */
+}
+
+/* تنسيق الفيديو في العنصر */
+.portfolio-item video {
+    max-width: 100%; /* تحديد عرض الفيديو */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    display: block; /* جعل الفيديو يظهر كبلوك */
+    margin-bottom: 15px; /* إضافة هامش أسفل الفيديو */
+    border-radius: 5px; /* تحديد شكل الحواف */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* إضافة ظل للفيديو */
+}
+
+/* تنسيق روابط العنصر */
+.portfolio-item a {
+    background-color: #333; /* تحديد لون خلفية الرابط */
+    color: #fff; /* تحديد لون النص */
+    padding: 10px 20px; /* إضافة هوامش داخلية */
+    text-decoration: none; /* إزالة تزيين الرابط */
+    border-radius: 5px; /* تحديد شكل الحواف */
+    display: inline-block; /* جعل الرابط يظهر كبلوك */
+    transition: background-color 0.3s ease; /* إضافة تأثير انتقالي */
+}
+
+/* تنسيق روابط العنصر عند مرور الماوس عليه */
+.portfolio-item a:hover {
+    background-color: #555; /* تغيير لون خلفية الرابط عند تحويل الماوس */
+}
+
+/* تنسيق التذييل */
+footer {
+    background-color: #333; /* تحديد لون خلفية التذييل */
+    color: #fff; /* تحديد لون النص */
+    padding: 20px; /* إضافة هوامش داخلية */
+    text-align: center; /* محاذاة النص في وسط التذييل */
+}

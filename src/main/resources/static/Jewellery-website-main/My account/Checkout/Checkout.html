@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="Checkout.css">
+</head>
+<body>
+<div id="checkout-container">
+    <h2>Checkout</h2>
+    <div id="shipping-info">
+        <h3>Shipping Information</h3>
+        <input type="text" placeholder="Full Name" id="fullname">
+        <input type="text" placeholder="Address" id="address">
+        <input type="text" placeholder="City" id="city">
+        <input type="text" placeholder="Country" id="country">
+    </div>
+    <div id="billing-info">
+        <h3>Billing Information</h3>
+        <input type="checkbox" id="same-as-shipping"> Same as Shipping<br>
+        <input type="text" placeholder="Full Name" id="billing-fullname">
+        <input type="text" placeholder="Address" id="billing-address">
+        <input type="text" placeholder="City" id="billing-city">
+        <input type="text" placeholder="Country" id="billing-country">
+    </div>
+    <div id="payment-info">
+        <h3>Payment Information</h3>
+        <input type="text" placeholder="Card Number" id="card-number">
+        <input type="text" placeholder="Expiration Date" id="expiration-date">
+        <input type="text" placeholder="CVV" id="cvv">
+        <h4>Select Payment Method:</h4>
+        <select id="payment-method">
+            <option value="credit-card">Credit Card</option>
+            <option value="paypal">PayPal</option>
+            <option value="apple-pay">Apple Pay</option>
+        </select>
+    </div>
+    <button onclick="submitOrder()">Submit Order</button>
+</div>
+<script src="Cheakout.js"></script>
+</body>
+</html>

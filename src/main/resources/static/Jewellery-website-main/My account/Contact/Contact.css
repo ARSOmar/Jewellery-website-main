@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info h2 {
+    color: #333;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links h2 {
+    color: #333;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links ul li a {
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}

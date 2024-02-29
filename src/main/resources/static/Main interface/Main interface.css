@@ -1,0 +1,74 @@
+/* تعيين الخط الرئيسي للصفحة وتعيين الهوامش والتباعدات */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* لون خلفية الصفحة */
+    color: #333; /* لون النص */
+}
+
+/* تحديد حاوية تضم جميع العناصر */
+.container {
+    max-width: 1200px; /* أقصى عرض للحاوية */
+    margin: 0 auto; /* توسيط الحاوية في الصفحة */
+    padding: 20px; /* هوامش داخلية للحاوية */
+    text-align: center; /* توسيط النص */
+}
+
+/* تنسيق العنوان الرئيسي للصفحة */
+header h1 {
+    font-size: 48px; /* حجم الخط */
+    color: #000; /* لون النص */
+    margin-bottom: 350px; /* تباعد من الأسفل */
+    text-transform: uppercase; /* تحويل النص إلى حروف كبيرة */
+    letter-spacing: 2px; /* تباعد بين الحروف */
+}
+
+/* تنسيق قائمة التنقل */
+nav ul {
+    list-style: none; /* إزالة نقاط القائمة */
+    padding: 0; /* إزالة التباعد الداخلي */
+}
+
+/* تنسيق الروابط في قائمة التنقل */
+nav ul li {
+    display: inline; /* عرض العناصر جنبًا إلى جنب */
+    margin-right: 20px; /* تباعد من اليمين بين العناصر */
+}
+
+/* تنسيق الروابط في قائمة التنقل عند التحويدها */
+nav ul li a {
+    text-decoration: none; /* إزالة تأثير التحويل */
+    color: #333; /* لون النص الافتراضي */
+    font-size: 18px; /* حجم الخط */
+    transition: color 0.3s ease; /* تحريك التغييرات في اللون بسلاسة */
+}
+
+/* تنسيق الروابط عند التحويدها */
+nav ul li a:hover {
+    color: #ff6600; /* تغيير لون النص عند التحويل */
+}
+
+/* تنسيق زر "Learn More" */
+.learn-more {
+    display: inline-block; /* إظهار الزر كمربع مستطيل */
+    background-color: #ff6600; /* لون خلفية الزر */
+    color: #fff; /* لون النص داخل الزر */
+    padding: 20px 130px; /* تباعد داخلي للزر */
+    border-radius: 30px; /* شكل الحواف للزر */
+    text-decoration: none; /* إزالة تأثير التحويل */
+    margin-top: 20px; /* تباعد من الأعلى */
+    font-size: 18px; /* حجم الخط */
+    transition: background-color 0.3s ease; /* تحريك التغييرات في خلفية الزر بسلاسة */
+}
+
+/* تنسيق زر "Learn More" عند التحويده */
+.learn-more:hover {
+    background-color: #ff9933; /* تغيير لون خلفية الزر عند التحويل */
+}
+body {
+    background-image: url("pexels-gabriel-peter-722905.jpg"); /* استبدال path/to/your/image.jpg بمسار الصورة الخاصة بك */
+    background-size: cover; /* جعل الصورة تمتد لتغطية كل الشاشة */
+    background-position: center; /* تحديد وضعية الصورة في وسط الصفحة */
+    background-repeat: no-repeat; /* عدم تكرار الصورة */
+}

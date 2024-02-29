@@ -1,0 +1,34 @@
+.services-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.service {
+    display: flex;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    max-width: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.service-details {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.service-details h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.service-details p {
+    color: #666;
+    margin-bottom: 10px;
+}
